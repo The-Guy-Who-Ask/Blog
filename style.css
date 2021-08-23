@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(248, 246, 243);
+}
+    header{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNCA0NBw0HBwcHBw0HBwcHBw8ICQcNFREWFhURExUYKCggGBoxJxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDjcZFRkrNysrKysrKystKy0rKzcrLTcrKystKysrLTcrKys3NysrKysrKy0rKysrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIGB//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABkBAQEBAQEBAAAAAAAAAAAAAAIBBgUAA//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDzxJNs+aSLzyhiIlIYYoYhQwxGQThkMTQ05EVDBpQwxQwacJijUGlIoYo1BKKNQRqIcijQjQ05FDFDBOQxqCNQaUiagagnFGoI1BpwwqESjkUk7jMpqCNRFiMRgnIZCoYNKGNQRqIcUaghEoYUYNOQwxRqCUijUEagnFGoGoNKRNQSNDTihiMGnIY1A1IlKKNRQwTkUaihg05FGooYNOQwqESkceQ1I7jLoxQxDhjUEhg0oWpBGhOJoRqCcUagjUGlE1BGoNORRqCNRCijUEag0pFGoI1BpwwhoacijUEagnFGoJGhpSJqKGCchhihg04YYoUKQwqHBOOOjUBjuMvDDFGolOKGKNQSijUDUE5FGhGoNKKNQNDTkTUEag0oo1BGoJxNCNQSijShQ4o1BGoJyKNQRqDTkMMRGlIYYpDBpwwxRqCcUMRg0pDGhI0JyONMUajusvFDFGoNKKNCNQTkUagjUSnFGoI1BKKNQNQacUagjUEopGoI0NKKNRQwTijQagnIo1BGohwwqGBShhihiU5DGoI1BpxQqGDThakEag0pEcUaE442NQRqO7WXkUagjQ0pFGoI1BORNQRqDSkTQjUGnFGooYJRRqKGJTkMMEag0oYUYNORRoRqQacUjUUI0pCYoYJyGNSCNQacUagjUE5FGoGoJRRpGDTkUaUKHI42NQRqO5WWijUEaiU5FGoGoNKJqCNDTiagkaglE1IoYJwwqGCcMhRg0pE0I1EORRqKGQachhkUMEoYYo1INOKNQRqCciagjUGnIpGooYNKRRqIicOFQocjjY0jHcZaQwxQwTijURglFGoI1EpwwxQwShhihgnDDFDBpQmIwTkUaihg04YUYJyGNQRqJSkUjUEag04pGoGoNORRqKGDThMgjUEpDDFDBOGFQicjjY1FDHdrLRNQRoSijShg04YVCJQwqGJTkJijUGnEYjBKQwxQwThjUEI05DDFGoJyKNQRqDSijUEagnIo1BGoNOGQxGQaUhMUMSnDDFDBpyGHFIRORx0MRjustE1FCNKRRqKGCcOGKESkMKME4YYiNKQwxQwTkMMUjUSnE1BGhORRqCNQaUUagjUE5FGoI1BpyGGKGDTkMMUMEoWoIYNOQmRRqCcihxQicjjoYoY7tZWExQwacMMRiFDDFIYNOQxqCEShMRg05DDFGoNOKGJqDTijUEag05FGoI1BKQwxQpTkUaikIU5CZFDEOGGKNQSkUMUMGnIY1A1BpxRoQiUcdDBGo7tZaGGIwShhihg04WoIUOEowaUJihg04Y1BDBpwxoRqCcUagjUEoYYI0NOGGBqDThhihg04SoYhQxqAwacMagjQnFGoGoNOKNCESj//2Q==);
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 100%; */
+    background-size: cover;
+    color: azure;
+    margin: 0;
+}
+.headings{
+    display: inline-block;
+}
+h2{
+    margin: 0.5em;
+    display: inline-block;
+}
+nav, header .headings ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+header .headings li, li.blom{
+    display: inline-block;
+    cursor: pointer;
+}
+li.blom{
+    padding-left: 17em;
+    cursor: pointer;
+}
+header .headings li{
+    margin-right: 1.5em;
+    cursor: pointer;
+}
+header .headings ul li:nth-of-type(1){
+    border: 0.2em solid azure;
+    cursor: pointer;
+}
+header .headings ul li:nth-of-type(2){
+    background: blue;
+    cursor: pointer;
+    border-radius: 1em;
+}
+li.bloom, li.blame{
+    padding: 0.5em;
+    cursor: pointer;
+}
+h1{
+    margin: 0;
+    /* padding-left: 9em;
+    padding-top: 2em;
+    padding-bottom: 2em; */
+    padding: 2em 0em 2em 13em;
+}
+section.center ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0em 1.3em;
+    padding-bottom: 1em;
+    color: blue;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+section.center ul{
+    border-bottom: 1px black solid;
+    margin-top: 0;
+    background: azure;
+}
+.slider1, .slided2, .slided3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5em;
+    width: 23%;
+    background: azure;
+    border: 0.1px solid rgb(55, 55, 55);
+    cursor: pointer;
+    transition: 2s;
+}
+section.ending{
+    display: flex;
+    justify-content: space-around;
+}
+header .headings nav li:hover{
+    transform: rotate3d(1, 1, 0, 360deg);
+    transition: 2s;
+}
+li.bloom:hover{
+    background: white;
+    color: rgb(70, 0, 128);
+    transition: 2s;
+}
+li.blame:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+section.center ul li:hover{
+    border-bottom: blue solid;
+    transition: 0.5s;
+}
+p{
+    font-size: 1.2em;
+}
+.slider1:hover, .slided2:hover, .slided3:hover{
+    transition: 1s;
+    color: rgb(60, 58, 58);
+    background: rgb(255, 241, 241);
+}
